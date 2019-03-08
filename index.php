@@ -10,8 +10,19 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        
+        
+        
         <?php
-        // put your code here
+        $A=10;
+        $a=10;
+        $hello="hola mundo";
+        
+        echo "saludo $hello x $A y $a ";
+        echo "<br>";
+        echo ' saludo $hello x $A y $a';
+        echo "<br>";
+        echo ' Saludo'. $hello. ' x ' .$A. ' y ' .$a ;
         ?>
     </body>
 </html>
