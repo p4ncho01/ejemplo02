@@ -10,11 +10,16 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <meta name="viewport" content="width=deoce-width">
         <meta charset="UTF-8">
+        <link href="estilos.css" rel="stylesheet" type="text/css"/>
         <title></title>
     </head>
     <body>
-         
+        <p class="estilo02">uno</p>
+        <p style="background: yellow ; font-size: 25px">dos</p>
+        <p class="estilo01">tres</p>
+        
         <?php
         require resultado.php;
         $A=10;
